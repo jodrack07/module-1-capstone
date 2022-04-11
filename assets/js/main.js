@@ -56,3 +56,4 @@ const generateSpeakersData = () => {
 // invoking functions
 generateProgramCards();
 generateSpeakersData();
+addHeaderBackground();
