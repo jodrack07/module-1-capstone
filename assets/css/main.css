@@ -233,6 +233,16 @@ main .programs {
   object-fit: contain;
 }
 
+.footer img {
+  width: 10%;
+}
+
+.sponsors-list img {
+  width: 60px;
+  height: 60px;
+  margin-top: -10px;
+}
+
 .more {
   display: none;
 }
@@ -352,12 +362,6 @@ hr {
   flex-wrap: wrap;
 }
 
-.sponsors-list img {
-  width: 60px;
-  height: 60px;
-  margin-top: -10px;
-}
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -367,10 +371,6 @@ hr {
   padding: 0 16px;
 }
 
-.footer img {
-  width: 10%;
-}
-
 .footer-left {
   display: flex;
   flex-direction: column;
@@ -378,7 +378,7 @@ hr {
   gap: 5px;
   font-size: 20px;
   color: var(--sl-black);
-  font-size: var(--fw-500);
+  font-weight: var(--fw-500);
 }
 
 .footer-left span {
