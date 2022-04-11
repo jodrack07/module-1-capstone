@@ -14,8 +14,8 @@ const generateProgramCards = () => {
             <img
             src="${programs[i].image}"
             id="${
-              programs[i].title.toLocaleLowerCase() === 'boost' ? 'boost' : ''
-            }"
+  programs[i].title.toLocaleLowerCase() === 'boost' ? 'boost' : ''
+}"
             alt="${programs[i].title} icon"
             />
         </div>
