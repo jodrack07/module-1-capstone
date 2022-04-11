@@ -1,4 +1,4 @@
-@import './partials/_variables.css';
+@import './partials/variables.css';
 
 * {
   box-sizing: border-box;
@@ -335,4 +335,53 @@ hr {
   color: var(--sl-orange);
   font-size: 20px;
   margin-left: 3%;
+}
+
+/* Sponsors */
+.sponsors {
+  width: 100%;
+  margin-top: 60px;
+  background: var(--sl-black);
+  padding-bottom: 40px;
+}
+
+.sponsors-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsors-list img {
+  width: 60px;
+  height: 60px;
+  margin-top: -10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  padding: 0 16px;
+}
+
+.footer img {
+  width: 10%;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 20px;
+  color: var(--sl-black);
+  font-size: var(--fw-500);
+}
+
+.footer-left span {
+  font-size: 18px;
+  font-weight: var(--fw-600);
 }
