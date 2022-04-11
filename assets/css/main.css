@@ -376,7 +376,7 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   gap: 5px;
-  font-size: 20px;
+  font-size: 15px;
   color: var(--sl-black);
   font-weight: var(--fw-500);
 }
