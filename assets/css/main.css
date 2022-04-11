@@ -164,3 +164,41 @@ img {
   font-size: 600;
   padding-top: 10px;
 }
+
+main .programs {
+  position: relative;
+  height: auto;
+  padding: 20px 0;
+  z-index: 0;
+  background: url('../../assets/images/bg-1.png') no-repeat center center/cover;
+}
+
+main .programs a {
+  display: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  margin: 0 0 19px;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.speakers-content .heading {
+  padding: 20px 0;
+  color: var(--sl-black);
+}
+
+.heading span {
+  position: relative;
+  top: 0;
+  bottom: 5px;
+  width: 19px;
+  border-bottom: solid 2px var(--sl-orange);
+  padding: 4px 0;
+}
