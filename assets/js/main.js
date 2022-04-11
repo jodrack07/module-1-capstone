@@ -2,6 +2,8 @@ import programs from './data/programs.js';
 import speakers from './data/speakers.js';
 import addHeaderBackground from './util.js';
 
+console.log(programs);
+
 // generate cards automatically
 const generateProgramCards = () => {
   const cardsWrapper = document.querySelector('.cards-wrapper');
@@ -14,8 +16,8 @@ const generateProgramCards = () => {
             <img
             src="${programs[i].image}"
             id="${
-  programs[i].title.toLocaleLowerCase() === 'boost' ? 'boost' : ''
-}"
+              programs[i].title.toLocaleLowerCase() === 'boost' ? 'boost' : ''
+            }"
             alt="${programs[i].title} icon"
             />
         </div>
