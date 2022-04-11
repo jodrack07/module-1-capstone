@@ -1,5 +1,5 @@
-import programs from './data/programs';
-import speakers from './data/speakers';
+import programs from './data/programs.js';
+import speakers from './data/speakers.js';
 
 // generate cards automatically
 const generateProgramCards = () => {
