@@ -2,8 +2,6 @@ import programs from './data/programs.js';
 import speakers from './data/speakers.js';
 import addHeaderBackground from './util.js';
 
-console.log(programs);
-
 // generate cards automatically
 const generateProgramCards = () => {
   const cardsWrapper = document.querySelector('.cards-wrapper');
