@@ -1,0 +1,15 @@
+:root {
+  /* colors */
+  --sl-gray: #d3d3d3;
+  --sl-black: #272930;
+  --sl-orange: #ec5242;
+  --white: #fff;
+
+  /* font-weights */
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+}
