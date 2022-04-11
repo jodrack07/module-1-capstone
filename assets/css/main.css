@@ -1,1 +1,31 @@
 @import './partials/_variables.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--sl-black);
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
