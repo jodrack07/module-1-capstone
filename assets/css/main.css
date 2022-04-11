@@ -202,3 +202,52 @@ main .programs a {
   border-bottom: solid 2px var(--sl-orange);
   padding: 4px 0;
 }
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  padding: 3px 16px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(39, 41, 48, 0.9);
+  transition: transform ease-in 0.6s 0.09s;
+  margin: 0 auto;
+  padding: 9px 5px;
+  border: 1px solid var(--sl-orange);
+}
+.card:hover {
+  border: solid 3px var(--white);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 17px;
+  font-weight: var(--fw-600);
+  color: var(--sl-orange);
+  margin: auto 10px;
+}
+
+.card p {
+  width: 50%;
+  color: #fff;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#boost {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.more {
+  display: none;
+}
