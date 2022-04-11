@@ -1,5 +1,6 @@
 import programs from './data/programs.js';
 import speakers from './data/speakers.js';
+import addHeaderBackground from './util.js';
 
 // generate cards automatically
 const generateProgramCards = () => {
