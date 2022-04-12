@@ -33,11 +33,6 @@ function selectCurrentActiveItem() {
   this.classList.add('nav-item-active');
 }
 
-function removeMenuOnceLinkGetClicked() {
-  header.style.display = 'none';
-  closeMenu.style.display = 'none';
-}
-
 // generate cards automatically
 const generateProgramCards = () => {
   const cardsWrapper = document.querySelector('.cards-wrapper');
@@ -94,10 +89,6 @@ humberger.addEventListener('click', openMobileMenu);
 closeMenu.addEventListener('click', closeMobileMenu);
 
 links.forEach((link) => link.addEventListener('click', selectCurrentActiveItem));
-
-links.forEach((link) => link.addEventListener('click', removeMenuOnceLinkGetClicked));
-
-navButton.addEventListener('click', removeMenuOnceLinkGetClicked);
 
 generateProgramCards();
 generateSpeakersData();

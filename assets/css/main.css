@@ -321,20 +321,70 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
+  main .programs a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0;
+    color: var(--white);
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .more i {
+    color: var(--white);
+    font-size: 20px;
+  }
+
   .header .fa-bars {
     display: none;
   }
+
   .header-top {
     display: flex;
     padding: 0 10px;
   }
+
+  .header-top li a,
+  .header-top li a i {
+    color: #fff;
+  }
+
   .header-bottom {
     display: flex;
     padding: 0 30px;
   }
 
+  .header__navLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: unset;
+    height: 60px;
+    gap: 0;
+    font-weight: var(--fw-400);
+    background: none;
+    padding-top: 0;
+    font-size: 20px;
+    left: unset;
+    right: unset;
+    top: unset;
+    transition: none;
+  }
+
+  .navbar .header__navLink .nav-item {
+    color: var(--sl-black);
+  }
+
   .nav-button {
     display: inline-block;
+    padding: 5px;
+  }
+
+  .header__navLink .nav-button a {
+    color: var(--sl-orange);
   }
 
   .heading {
@@ -344,6 +394,7 @@ hr {
   .showcase {
     height: 85vh;
   }
+
   .showcase h1 {
     font-size: 50px;
     letter-spacing: 5px;
@@ -365,23 +416,11 @@ hr {
     line-height: 40px;
   }
 
-  main .programs .btn {
+  .speakers .btn {
     display: none;
   }
 
-  main .programs a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 4rem 0;
-    color: var(--white);
-    font-size: 1em;
-    text-transform: uppercase;
-    text-decoration: underline;
-  }
-
-  .speakers .btn {
+  main .programs .btn {
     display: none;
   }
 
@@ -394,11 +433,6 @@ hr {
     height: 40px;
     background-color: var(--sl-orange);
     margin: 20px auto;
-  }
-
-  .more i {
-    color: var(--white);
-    font-size: 20px;
   }
 
   main .programs a:hover {
@@ -436,9 +470,10 @@ hr {
 }
 
 @media screen and (min-width: 1024px) {
-  .showcase {
-    height: 100vh;
+  .header {
+    display: block;
   }
+
   .showcase h1 {
     font-size: 60px;
     letter-spacing: 5px;
@@ -475,11 +510,12 @@ hr {
   .header .fa-bars {
     display: none;
   }
+
   .header-bottom,
   .header-top {
     display: flex;
     padding: 0 130px;
-    color: var(--white);
+    color: var(--sl-black);
   }
 
   .header-bottom {
@@ -488,7 +524,7 @@ hr {
   }
 
   .showcase {
-    width: 100%;
+    width: 100vh;
     padding: 90px 130px;
   }
 
