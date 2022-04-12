@@ -40,13 +40,9 @@ function removeMenuOnceLinkGetClicked() {
 humberger.addEventListener('click', openMobileMenu);
 closeMenu.addEventListener('click', closeMobileMenu);
 
-links.forEach((link) =>
-  link.addEventListener('click', selectCurrentActiveItem)
-);
+links.forEach((link) => link.addEventListener('click', selectCurrentActiveItem));
 
-links.forEach((link) =>
-  link.addEventListener('click', removeMenuOnceLinkGetClicked)
-);
+links.forEach((link) => link.addEventListener('click', removeMenuOnceLinkGetClicked));
 
 navButton.addEventListener('click', removeMenuOnceLinkGetClicked);
 
