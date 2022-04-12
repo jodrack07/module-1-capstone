@@ -19,6 +19,8 @@ Data Mining Conference is a conference that happens online to help interested an
 
 ## Live Demo
 
+[See Live demo](https://joseph07-drack.github.io/module-1-capstone/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -26,16 +28,16 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - Have a working and updated browser.
-- Have a local version control like **git** install on your computer
+- Have a local version control like `git` install on your computer
 - Have an account on Github, as an online/remote Version Control System
 
 ### Setup
 
-- Clone the git repo by using this command :
+- Clone the git repo by using this command : `git clone git@github.com:joseph07-drack/module-1-capstone.git`
 
 ### Install
 
-- Run just **npm install** to get all dependecies required to run the linters checks
+- Run just `npm install` to get all dependecies required to run the linters checks
 
 ### Run tests
 
@@ -47,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 Github pages, refer the **Live demo** heading to see the page.
 
-## Authors
+## Author
 
 👤 **Jodrack**
 
