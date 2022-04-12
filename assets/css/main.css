@@ -112,8 +112,6 @@ img {
 }
 
 .header-bottom .header__navLink a {
-  /* display: none; */
-  /* color: var(--sl-black); */
   color: #fff;
   font-size: 18px;
   margin-right: 15px;
@@ -295,7 +293,7 @@ main .programs {
   width: 200px;
   height: 120px;
   margin-right: 25px;
-  object-fit: fill;
+  object-fit: contain;
   top: 0;
   margin-top: 0;
 }
@@ -303,7 +301,6 @@ main .programs {
 .speaker-card-images img:first-child {
   width: 50px;
   height: 50px;
-  object-fit: cover;
 }
 
 .speaker-card-images img:nth-child(2) {
