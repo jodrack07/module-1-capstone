@@ -475,25 +475,27 @@ hr {
   }
 
   .showcase h1 {
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: 5px;
     margin: 10px 0;
   }
 
   .showcase .opener {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-    padding-top: 55px;
+    padding-top: 50px;
   }
 
   .showcase .topic {
     font-size: 20px;
     line-height: 30px;
+    width: 600px;
+    padding: 10px 1px;
   }
 
   .showcase .date {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 40px;
     margin: 10px 0;
   }
@@ -524,7 +526,8 @@ hr {
   }
 
   .showcase {
-    width: 100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 90px 130px;
   }
 
