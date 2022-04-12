@@ -15,8 +15,18 @@
   width: 100%;
   height: 80vh;
   background: url('../../assets/images/img.jpg') no-repeat center center/cover;
-  padding: 0px 16px;
+  padding: 0 16px;
   overflow-x: hidden;
+}
+
+.past-conf p {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 20px;
+  z-index: 3;
 }
 
 .about h1,
@@ -91,6 +101,11 @@
   padding: 4px 0;
 }
 
+footer img {
+  width: 60px;
+  height: 60px;
+}
+
 .logo-container {
   padding: 0 30px;
 }
@@ -109,31 +124,16 @@
   margin-bottom: 20px;
 }
 
+#conf-1 {
+  margin-bottom: 10px;
+}
+
 .past-conf #conf-1,
 .past-conf #conf-2 {
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
   height: 200px;
   background: url(../images/speakers/conf-1.jpg) no-repeat center center/cover;
   opacity: 0.6;
   z-index: 1;
-}
-
-.past-conf p {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--white);
-  font-size: 20px;
-  z-index: 3;
-}
-
-#conf-1 {
-  margin-bottom: 5px;
-}
-
-footer img {
-  width: 60px;
-  height: 60px;
 }
