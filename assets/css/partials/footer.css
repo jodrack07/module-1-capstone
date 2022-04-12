@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100px;
+  padding: 0 16px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 15px;
+  color: var(--sl-black);
+  font-weight: var(--fw-500);
+}
+
+.footer-left span {
+  font-size: 18px;
+  font-weight: var(--fw-600);
+}
