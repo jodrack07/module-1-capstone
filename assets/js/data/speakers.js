@@ -7,8 +7,8 @@ const speakers = [
   },
   {
     name: 'Mathus Smith',
-    image: './assets/images/speakers/speaker-2.jpg',
-    description1: 'Mathus, a data scientist at Google Norway',
+    image: './assets/images/speakers/speaker-6.jpg',
+    description1: 'Mathus, a data scientist at Google Norway and Germany',
     description2: 'Mathus Smith studies data science at Oxford',
   },
   {
@@ -21,8 +21,7 @@ const speakers = [
   {
     name: 'Descholar Emma',
     image: './assets/images/speakers/speaker-4.jpg',
-    description1:
-      'Descholar, an inverster in more that 10 international companies',
+    description1: 'Descholar, an inverster in more that 10 companies',
     description2: 'Descholar Emma studies the way the stock market changes',
   },
   {
@@ -34,7 +33,7 @@ const speakers = [
   {
     name: 'Phil Muhindo',
     image: './assets/images/speakers/speaker-6.jpg',
-    description1: 'Phil, an inverster in more that 15 international companies',
+    description1: 'Phil, an inverster in more that 15 companies',
     description2: 'Phil Muhindo studies the way the stock market changes',
   },
 ];
