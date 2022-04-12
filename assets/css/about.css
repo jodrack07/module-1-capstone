@@ -1,4 +1,10 @@
 @import './partials/variables.css';
+@import './partials/reset.css';
+@import './partials/header.css';
+
+.about-container {
+  width: 100%;
+}
 
 .about {
   display: flex;
@@ -6,8 +12,53 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background: url('../../assets/images/img.jpg') no-repeat center center/cover;
-  padding: 65px 16px;
+  padding: 0px 16px;
   overflow-x: hidden;
+}
+
+.about h1,
+.about p:first-child {
+  color: var(--sl-orange);
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+  font-weight: var(--fw-900);
+}
+
+.about .opener {
+  padding-top: 46px;
+}
+
+.overview {
+  text-align: center;
+  border: 1px solid gray;
+  background: var(--white);
+  padding: 2px 3px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.about .contact-info p {
+  text-align: center;
+  color: var(--sl-black);
+}
+
+.mail {
+  color: #616161;
+  text-decoration: underline;
+  font-weight: var(--fw-900);
+  margin-top: 5px;
 }
