@@ -19,7 +19,11 @@ Data Mining Conference is a conference that happens online to help interested an
 
 ## Live Demo
 
-[See Live demo](https://joseph07-drack.github.io/module-1-capstone/)
+[Live demo](https://joseph07-drack.github.io/module-1-capstone/)
+
+## Loom Video
+
+[Link to the Loom video](https://www.loom.com/share/bf0c655b33804d83840d008b940d4e4a)
 
 ## Getting Started
 
@@ -47,7 +51,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-Github pages, refer the **Live demo** heading to see the page.
+## Github pages, refer the **Live demo** heading to see the page.
+
+## [Live demo](https://joseph07-drack.github.io/module-1-capstone/)
 
 ## Author
 
@@ -66,9 +72,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Inspired by [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 
