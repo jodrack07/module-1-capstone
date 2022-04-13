@@ -21,3 +21,8 @@
   font-size: 18px;
   font-weight: var(--fw-600);
 }
+
+.footer img {
+  width: 70px;
+  height: 60px;
+}
