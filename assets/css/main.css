@@ -13,13 +13,14 @@
   background: url('../../assets/images/img.jpg') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
-  padding: 65px 16px;
+  padding: 0 16px;
   overflow-x: hidden;
 }
 
 .showcase .opener {
   color: var(--sl-orange);
   font-weight: var(--fw-400);
+  padding-top: 75px;
 }
 
 .showcase h1 {
@@ -256,7 +257,9 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 20px;
+  flex-wrap: nowrap;
 }
 
 /* media queries */
@@ -380,6 +383,7 @@ hr {
 
   .nav-button {
     display: inline-block;
+    text-align: center;
     padding: 5px;
   }
 
@@ -484,7 +488,7 @@ hr {
     font-size: 20px;
     line-height: 30px;
     font-weight: 600;
-    padding-top: 50px;
+    padding-top: 160px;
   }
 
   .showcase .topic {
@@ -528,7 +532,7 @@ hr {
   .showcase {
     width: 100vw;
     height: 100vh;
-    padding: 90px 130px;
+    padding: 0 130px;
   }
 
   .programs {

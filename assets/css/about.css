@@ -138,6 +138,10 @@ footer img {
   z-index: 1;
 }
 
+.footer {
+  flex-direction: column;
+}
+
 /* media queries */
 
 @media screen and (min-width: 768px) {
